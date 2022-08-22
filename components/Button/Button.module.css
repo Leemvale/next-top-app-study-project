@@ -29,3 +29,18 @@
   border: 1px solid var(--gray-light);
   background: none;
 }
+
+.arrow {
+  display: inline-block;
+
+  margin-left: 10px;
+}
+
+.arrowDown {
+  transition: transform 0.2s;
+  transform: rotate(90deg);
+}
+
+.primary svg path {
+  fill: var(--white);
+}
